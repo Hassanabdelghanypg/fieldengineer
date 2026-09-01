@@ -37,7 +37,7 @@ def show():
 
 # The Calculations
     with col2:
-        st.image(r".\images\bit-nozzles.jpg", caption="Bit Nozzles")
+        st.image("./images/bit-nozzles.jpg", caption="Bit Nozzles")
         st.header("The Calculator")
 
         # ( Total Flow Area (TFA) Calculation )
