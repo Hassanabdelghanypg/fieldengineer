@@ -109,7 +109,7 @@ def show():
                 st.markdown(f"##### {hole_volume:.4} bbl")
 
             with col_b:
-                st.image(r".\images\hole_fill.png", caption="Hole Fill")
+                st.image("./images/hole_fill.png", caption="Hole Fill")
 
         
         # ( Annular Volume Calculations )
@@ -134,7 +134,7 @@ def show():
                 st.markdown(f"##### {hole_volume:.6} bbl")
 
             with col_b:
-                st.image(r".\images\annular.png", caption="Annular (Annulus) Section Volume")
+                st.image("./images/annular.png", caption="Annular (Annulus) Section Volume")
 
 
         # ( Pipe Volume Calculations )
@@ -158,13 +158,13 @@ def show():
                 st.markdown(f"##### {pipe_capacity_volume:.4} bbl")
 
             with col_b:
-                st.image(r".\images\pipe_capacity.png", caption="Pipe Inner Capacity (Volume)")
+                st.image("./images/pipe_capacity.png", caption="Pipe Inner Capacity (Volume)")
 
 
         # ( Metal Displacement Calculations )
         with st.expander("Metal Displacement Calculation"):
 
-            st.image(r".\images\displacement.png", caption="Pipe Inner Capacity (Volume)")
+            st.image("./images/displacement.png", caption="Pipe Inner Capacity (Volume)")
 
             # Choose Calculations Mode:
             calculation_mode = st.radio("****Choose Calculation Mode :****",
