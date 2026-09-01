@@ -53,8 +53,8 @@ def show():
 
 # The Calculations
     with col2:
-        st.image(".\images\pump_triplex.jpg", caption="Triplex Pump")
-        st.image(".\images\duplex.jpg", caption="Duplex Pump")
+        st.image("./images/pump_triplex.jpg", caption="Triplex Pump")
+        st.image("./images/duplex.jpg", caption="Duplex Pump")
         st.header("The Calculator")
 
         # ( Triplex Pump Output Calculation )
