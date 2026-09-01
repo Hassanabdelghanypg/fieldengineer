@@ -64,7 +64,7 @@ def show():
         
             
     with col2:
-        st.image(".\images\Slug_Effect.jpg", caption="Slug Effect Illustration")
+        st.image("./images/Slug_Effect.jpg", caption="Slug Effect Illustration")
         st.header("The Calculator")
 
         # Phase 1 ( Calculating Required Slug Volume )
